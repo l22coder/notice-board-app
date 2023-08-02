@@ -1,7 +1,7 @@
 import express from "express";
-import globalRouter from "./routers/globalRouter";
-import userRouter from "./routers/userRouter";
-import boardRouter from "./routers/boardRouter";
+import globalRouter from "./src/routers/globalRouter";
+import userRouter from "./src/routers/userRouter";
+import boardRouter from "./src/routers/boardRouter";
 
 const app = express();
 const PORT = 3000;

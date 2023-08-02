@@ -7,20 +7,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/l22coder/notice-board-app.git"
-  },
   "author": "l22coder",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/l22coder/notice-board-app/issues"
-  },
-  "homepage": "https://github.com/l22coder/notice-board-app#readme",
   "dependencies": {
     "@babel/core": "^7.22.9",
     "@babel/node": "^7.22.6",
     "@babel/preset-env": "^7.22.9",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^7.4.1",
+    "nodemon": "^3.0.1"
   }
 }
